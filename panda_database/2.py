@@ -2,7 +2,7 @@
 # 'Y', 'N') where 'Y' means this product is low fat and 'N' means it is not. recyclable is an ENUM (category) of
 # types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
 
-import pandas0 as pd
+import pandas as pd
 
 
 def find_products(products: pd.DataFrame) -> pd.DataFrame:

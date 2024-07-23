@@ -1,6 +1,6 @@
 # 183. Customers Who Never Order
 
-import pandas0 as pd
+import pandas as pd
 
 
 def find_customers(customers: pd.DataFrame, order: pd.DataFrame) -> pd.DataFrame:
