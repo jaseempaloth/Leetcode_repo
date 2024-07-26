@@ -36,39 +36,7 @@ edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]]
 distance_threshold = 4
 print(s.find_the_city(n, edges, distance_threshold)) 
 
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      
         # dp = [[float('inf') for j in range(n)] for i in range(n)]
         
         # for i in range(n):
