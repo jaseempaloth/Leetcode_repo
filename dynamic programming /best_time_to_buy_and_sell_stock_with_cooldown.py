@@ -1,7 +1,7 @@
 # 309. Best Time to Buy and Sell Stock with Cooldown
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices: list[int]) -> int:
         n = len(prices)
         if n <= 1:
             return 0
