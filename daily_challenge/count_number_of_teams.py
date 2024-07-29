@@ -8,7 +8,7 @@ class Solution:
         dp = [[0, 0] for _ in range(n)]
         res = 0
         for i in range(n):
-            for j in range:
+            for j in range(i):
                 if rating[i] > rating[j]:
                     dp[i][0] += 1
                     res += dp[j][0]
