@@ -8,4 +8,9 @@ class Solution:
                 nums[i] = nums[j]
                 i += 1
         return i
-        
+
+# test cases
+s = Solution()
+nums = [3, 2, 2, 3]
+val = 3
+print(s.removeElement(nums, val)) # 2
