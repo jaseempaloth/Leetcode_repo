@@ -9,12 +9,8 @@ class Solution:
                 flower_arr[i] = 1
                 n -= 1
         return n <= 0
-             
-          
 
-
-
-
+        
 s = Solution()
 flowerbed =  [1,0,0,0,1,0,0]
 n = 3

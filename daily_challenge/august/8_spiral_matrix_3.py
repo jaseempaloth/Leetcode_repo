@@ -1,8 +1,6 @@
 # 885. Spiral Matrix III
 # Topics: Array, Matrix, Simulation
 
-from tables import Cols
-
 
 class Solution:
     def spiralMatrixIII(self, rows: int, cols: int, rStart: int, cStart: int) -> list[list[int]]:
