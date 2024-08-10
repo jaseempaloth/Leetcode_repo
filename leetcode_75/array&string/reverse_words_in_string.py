@@ -1,11 +1,15 @@
 # 151. Reverse Words in a String
 # Topics: 
 
+from hmac import new
+
+
 class Solution:
     def reverse_words(self, s: str) -> str:
         s = s.strip().split()
-        new_s = s[::-1]
-        return " ".join(new_s)
+        s = s[::-1]
+        #s = list(reversed(s.strip().split())) 
+        return " ".join(s)
 
 
 
