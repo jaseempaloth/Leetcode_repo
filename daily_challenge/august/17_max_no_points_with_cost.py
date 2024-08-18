@@ -2,12 +2,6 @@
 # Topics: Array, Dynamic Programming
 
 
-
-
-
-import re
-
-
 class Solution:
     def maxPoints(self, points: list[list[int]]) -> int:
         row, cols = len(points), len(points[0])
