@@ -1,7 +1,12 @@
-# 1071. Greatest Common Divisor of Strings
+# from math import e
 
-class Solution:
-    def gcdOfStrings(self, str1: str, str2: str) -> str:
-        if str1 + str2 != str2 + str1:
-            return ''
-        return str1[:math.gcd(len(str1), len(str2))]
+
+# def check(d):
+#     count = {}
+#     for x in d:
+#         if d[x] not in count:
+#             count[d[x]] = 1
+#         count[d[x]] += 1
+#     return count
+
+# print(check({'a': 1, 'b': 2, 'c': 1, 'd': 1})) # {2: 1, 3: 1, 4: 1}
