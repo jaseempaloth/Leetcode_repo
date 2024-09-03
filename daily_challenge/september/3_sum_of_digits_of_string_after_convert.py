@@ -18,4 +18,4 @@ class Solution:
 sln = Solution()
 s = "leetcode"
 k = 2
-print(sln.get_lucky(s, k))
+print(sln.get_lucky(s, k)) # 6
