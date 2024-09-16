@@ -4,19 +4,19 @@
 
 class Solution:
     def move_zeroes(self, nums: list[int]):
-        left = 0
-        right = len(nums) - 1
-
-        while left < right:
-            if nums[left] == 0 and nums[right] != 0:
-                nums[left], nums[right] = nums[right], nums[left]
-                left += 1
-                right -= 1
-            elif nums[right] == 0:
-                right -= 1
-            else:
-                left += 1    
+        l = 0
+        for r in range(len(nums)):
+            if nums[r]:
+                nums[l], nums[r] = nums[r], nums[l]
+                l += 1
+        return nums   
 
 s = Solution()
 nums = [0, 2, 0, 3, 12]
 print(s.move_zeroes(nums))
+
+for r in range(len(nums)):
+    if nums[r]:
+        print(f'nums[{r}] is non-zero', nums[r])
+    else:
+        print(f'nums[{r}] is zero', nums[r])
